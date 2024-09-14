@@ -12,8 +12,8 @@
         <div class="navleft">
             <img src="./img/logo.svg" alt="">
         
-            <div class="links">
-                <select name="" id="">
+            <div id="links">
+                <select name="features" id="features">
                     <option value="">Features</option>
                     <option value="">Todo List</option>
                     <option value="">Calendar</option>
@@ -21,7 +21,7 @@
                     <option value="">Planning</option>
                 </select>
 
-                <select name="" id="">
+                <select name="company" id="company">
                     <option value="">Company</option>
                     <option value="">History</option>
                     <option value="">Our Team</option>
@@ -39,7 +39,7 @@
             <a href="#">Login</a>
             <button>Register</button>
         </div>
-        <div id="burger">
+        <div id="burger" onclick="displayLinks()">
             <img src="./img/icon-menu.svg" alt="menu">
         </div>
     </nav>
@@ -65,5 +65,6 @@
             <img src="./img/image-hero-desktop.png" alt="image">
         </div>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -30,7 +30,7 @@ nav{
     justify-content: space-between;
     padding: 20px 30px;
 }
-.links{
+#links{
     display: flex;
     justify-content: space-between;
     width: 400px;
@@ -105,8 +105,15 @@ img{
     body{
         width: 100vw;
     }
-    .links{
+    #links{
         display: none;
+        height: 200px;
+        width:40vw;
+        gap: 0px;
+        border: 1px solid;
+        border-top: 0;
+        /* justify-items: space-evenly;
+        align-items: center; */
     }
     .navright{
         display: none;
@@ -137,10 +144,10 @@ img{
         width: 100vw;
     }
     .left h1{
-        font-size: 45px;
-        margin: 0 auto;
-        width: 500px;
-        text-align: center;
+        font-size: 42px;
+        /* margin: 0 auto; */
+        width:100vw;
+        text-align: left;
     }
     .left p{
         width: 350px;
